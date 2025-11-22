@@ -1,4 +1,4 @@
-This is the implementation of AntiHub.
+This is the frontend implementation of AntiHub.
 
 ## Getting Started
 
