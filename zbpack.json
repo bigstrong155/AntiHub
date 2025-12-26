@@ -1,4 +1,4 @@
 {
-  "build_command": "npm install && npm run build",
+  "build_command": "npm install && npm run build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
   "start_command": "PORT=${PORT:-3000} node .next/standalone/server.js"
 }
