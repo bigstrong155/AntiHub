@@ -1,4 +1,4 @@
 {
   "build_command": "npm install && npm run build",
-  "start_command": "node .next/standalone/server.js"
+  "start_command": "PORT=${PORT:-3000} node .next/standalone/server.js"
 }
